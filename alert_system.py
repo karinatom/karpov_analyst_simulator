@@ -14,8 +14,8 @@ from airflow.decorators import dag, task
 from airflow.operators.python import get_current_context
 
 # получаем доступ к нашему боту
-my_token = '5711016012:AAGFpwQFPOOV8b2FVsrCn3wmhwc1GIwotIM'
-bot = telegram.Bot(token=my_token)
+my_token = # прописываем токен бота
+bot = telegram.Bot(token=my_token) # получаем к нему доступ
 
 chat_id = 239606887
 #-644906564
@@ -130,7 +130,7 @@ def dag_k_tomnikovskaja_11_8():
                 ax.set(xlabel='time')
                 ax.set(ylabel=metric)
                 ax.set_title(metric)
-                # укажем нижнюю границу у равную нулю
+                # укажем нижнюю границу равную нулю
                 ax.set(ylim=(0,None))
                 plt.fill_between(x=df['ts'], y1=df['top'], y2=df['bottom'], alpha=0.3)
 
