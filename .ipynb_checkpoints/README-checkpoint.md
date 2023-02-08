@@ -18,4 +18,3 @@
 [Система алертов](https://github.com/karinatom/karpov_analyst_simulator/blob/main/alert_system.py)
 - настройка системы, проверяющей метрики на наличие аномалий каждые 15 минут
 - автоматизация системы алертов с помощью Airflow
-
