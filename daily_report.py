@@ -12,7 +12,7 @@ from airflow.decorators import dag, task
 from airflow.operators.python import get_current_context
 
 # получаем доступ к нашему боту
-my_token = '5711016012:AAGFpwQFPOOV8b2FVsrCn3wmhwc1GIwotIM'
+my_token = # прописываем токен бота
 bot = telegram.Bot(token=my_token)
 
 chat_id = -769752736
